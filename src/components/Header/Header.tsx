@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { useLocation } from 'react-router-dom';
 import DataObjectIcon from '@mui/icons-material/DataObject';
 import { HomeContext } from '../../context/HomeContext';
-import RefreshButton from '../Comment/RefreshButton';
+import RefreshButton from '../RefreshButton/RefreshButton';
 import './Header.css';
 
 const Header: React.FC = () => {

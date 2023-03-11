@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Box, Button, createTheme, Link, Skeleton, Typography } from '@mui/material';
-import BackLink from '../../components/Comment/BackLink/BackLink';
-import Comments from '../../components/Comment/Comment/Comments';
+import BackLink from '../../components/BackLink/BackLink';
+import Comments from '../../components/Comment/Comments';
 import { getStoryById } from '../../api/api';
 import { TStory } from '../../types/types';
 

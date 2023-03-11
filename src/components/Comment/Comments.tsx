@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Paper, Skeleton, Typography, Button, Box } from '@mui/material';
 import './Comments.css';
-import { getCommentById, getComments } from '../../../api/api';
-import { TComment } from '../../../types/types';
+import { getCommentById, getComments } from '../../api/api';
+import { TComment } from '../../types/types';
 
 type TProps = {
   id: number;
