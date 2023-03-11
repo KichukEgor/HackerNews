@@ -36,6 +36,14 @@ export const NewsProvider: React.FC<TProps> = ({ children }) => {
 
   useEffect(() => {
     fetchStories();
+
+    const intervalId = setInterval(() => {
+      fetchStories();
+    }, 60000); // update every minute
+
+    return () => {
+      clearInterval(intervalId);
+    };
   }, [fetchStories]);
 
   const contextValue = useMemo(() => (
