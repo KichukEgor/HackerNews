@@ -1,0 +1,13 @@
+html {
+  background: rgb(0, 30, 60);
+}
+
+.App {
+  max-width: 1400px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.header + .content {
+  padding-top: 130px;
+}
