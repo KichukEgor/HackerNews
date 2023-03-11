@@ -9,3 +9,5 @@ Instructions for starting the project:
 3. Install the necessary dependencies using `npm install`.
 4. Start the project using `npm start`.
 5. Open your browser and go to http://localhost:3000 to view the app.
+
+Also you can visit github-pages [website](http://localhost:3000/HackerNews)
